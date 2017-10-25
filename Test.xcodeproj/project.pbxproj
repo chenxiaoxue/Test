@@ -13,6 +13,8 @@
 		E072DAF31F9DB94E00E9C7BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E072DAF21F9DB94E00E9C7BF /* Assets.xcassets */; };
 		E072DAF61F9DB94E00E9C7BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E072DAF41F9DB94E00E9C7BF /* LaunchScreen.storyboard */; };
 		E072DAF91F9DB94E00E9C7BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E072DAF81F9DB94E00E9C7BF /* main.m */; };
+		E0A6D89C1FA0810200776808 /* oneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A6D89A1FA0810200776808 /* oneViewController.m */; };
+		E0A6D89D1FA0810200776808 /* oneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0A6D89B1FA0810200776808 /* oneViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		E072DAF51F9DB94E00E9C7BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E072DAF71F9DB94E00E9C7BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E072DAF81F9DB94E00E9C7BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E0A6D8991FA0810200776808 /* oneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = oneViewController.h; sourceTree = "<group>"; };
+		E0A6D89A1FA0810200776808 /* oneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = oneViewController.m; sourceTree = "<group>"; };
+		E0A6D89B1FA0810200776808 /* oneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = oneViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +67,9 @@
 				E072DAEA1F9DB94E00E9C7BF /* AppDelegate.m */,
 				E072DAEC1F9DB94E00E9C7BF /* ViewController.h */,
 				E072DAED1F9DB94E00E9C7BF /* ViewController.m */,
+				E0A6D8991FA0810200776808 /* oneViewController.h */,
+				E0A6D89A1FA0810200776808 /* oneViewController.m */,
+				E0A6D89B1FA0810200776808 /* oneViewController.xib */,
 				E072DAEF1F9DB94E00E9C7BF /* Main.storyboard */,
 				E072DAF21F9DB94E00E9C7BF /* Assets.xcassets */,
 				E072DAF41F9DB94E00E9C7BF /* LaunchScreen.storyboard */,
@@ -132,6 +140,7 @@
 				E072DAF61F9DB94E00E9C7BF /* LaunchScreen.storyboard in Resources */,
 				E072DAF31F9DB94E00E9C7BF /* Assets.xcassets in Resources */,
 				E072DAF11F9DB94E00E9C7BF /* Main.storyboard in Resources */,
+				E0A6D89D1FA0810200776808 /* oneViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +154,7 @@
 				E072DAEE1F9DB94E00E9C7BF /* ViewController.m in Sources */,
 				E072DAF91F9DB94E00E9C7BF /* main.m in Sources */,
 				E072DAEB1F9DB94E00E9C7BF /* AppDelegate.m in Sources */,
+				E0A6D89C1FA0810200776808 /* oneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
